@@ -1,0 +1,19 @@
+[project]
+name = "sieci-projekcik"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "dotenv>=0.9.9",
+    "flask==1.1.4",
+    "flask-oauthlib==0.9.6",
+    "jinja2<3.1",
+    "markupsafe<2.1",
+    "pydantic>=2.12.5",
+    "tinydb>=4.8.2",
+    "werkzeug==0.16.1",
+]
+[tool.ty.rules]
+unresolved-import = "ignore"
+unresolved-global = "ignore"
