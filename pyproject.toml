@@ -1,9 +1,9 @@
 [project]
 name = "sieci-projekcik"
 version = "0.1.0"
-description = "Add your description here"
+description = "A Flask-based student management system with Google OAuth authentication"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.10,<3.12"
 dependencies = [
     "dotenv>=0.9.9",
     "flask==1.1.4",

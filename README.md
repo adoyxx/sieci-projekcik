@@ -125,6 +125,8 @@ The project uses:
 - Pydantic for data validation
 - TinyDB for simple JSON storage
 
-## License
+### Python Version Compatibility
 
-[Add your license information here]
+- **Tested on**: Python 3.11
+- **Expected to work on**: Python 3.10
+- **Not compatible with**: Python 3.12 and later (due to dependency constraints)
